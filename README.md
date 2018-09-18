@@ -3,7 +3,11 @@
 
 
 sudo apt-get update
+
 sudo apt-get install virtualbox-5.2
+
 sudo apt-get update
+
 sudo apt-cache show vagran
+
 sudo apt-get install vagrant
