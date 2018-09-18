@@ -11,3 +11,22 @@ sudo apt-get update
 sudo apt-cache show vagran
 
 sudo apt-get install vagrant
+
+mkdir MyVagrant
+
+cd MyVagrant/
+
+mkdir xenial64
+
+cd xenial64/
+
+vagrant init ubuntu/xenial64
+
+ls 
+
+должен появится  Vagrantfile файл
+
+cat Vagrantfile
+
+vagrant up
+
