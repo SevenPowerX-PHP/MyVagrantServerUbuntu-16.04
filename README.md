@@ -33,3 +33,4 @@ cat Vagrantfile
 
 vagrant up
 
+vagrant box update
