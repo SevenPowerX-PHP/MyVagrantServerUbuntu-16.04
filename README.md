@@ -48,3 +48,14 @@ sudo dpkg -i virtualbox-5.2_5.2.18-124319~Ubuntu~xenial_amd64.deb
 тоже проделываем с vagraant нужной верссии
 
 [Устанавливаем PHP7.2](https://thishosting.rocks/install-php-on-ubuntu/)
+
+Подключение по ssh
+
+ssh-keygen
+
+Generating public/private rsa key pair.
+
+Enter file in which to save the key (/home/vagrant/.ssh/id_rsa): 
+
+дОБАВЛЯЕМ Публичный ключ на GitHub
+
