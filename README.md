@@ -2,6 +2,8 @@
 [Как правильно писать программы на PHP7](https://www.youtube.com/watch?v=pDyVjREXSa4)
 
 
+ssh -p 3333 user@46.63.8.118
+
 sudo apt-get update
 
 sudo apt-get install virtualbox-5.2
