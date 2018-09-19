@@ -34,3 +34,5 @@ cat Vagrantfile
 vagrant up
 
 vagrant box update
+
+- [Устаноаноноввка Vagrant на serveer ](https://howtoprogram.xyz/2016/07/23/install-vagrant-ubuntu-16-04/)
