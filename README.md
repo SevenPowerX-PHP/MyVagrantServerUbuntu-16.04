@@ -44,3 +44,5 @@ wget https://download.virtualbox.org/virtualbox/5.2.18/virtualbox-5.2_5.2.18-124
 Устананоноавливаем скачианый пакет
 
 sudo dpkg -i virtualbox-5.2_5.2.18-124319~Ubuntu~xenial_amd64.deb 
+
+тоже проделываем с vagraant нужной верссии
