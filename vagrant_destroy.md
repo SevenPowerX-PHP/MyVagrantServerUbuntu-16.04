@@ -107,4 +107,7 @@ Edit Vagrantfile
     может потребоватся установить zip
     sudo apt-get install zip unzip
     
+    vagrant@ubuntu-xenial:~/megaproject$ find .
+    vagrant@ubuntu-xenial:~/megaproject$ cp vendor/splx/dates/run .
     chmod +x run - ( правим права )
+    ./run
