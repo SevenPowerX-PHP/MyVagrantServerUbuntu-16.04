@@ -57,4 +57,35 @@ Edit Vagrantfile
 
         vagrant reload
         
-   Start PHPStorm
+   Start PHPStorm project
+   [Как удалить папку .idea и лишние файлы из Git ](https://gist.github.com/wpupru/0159fcb6f6bc903bdbe1ff3509a2847f)
+        
+        Как удалить папку .idea и лишние файлы из Git
+
+        Удаляем ненужные папки и файлы при синхронизации в Git репозиторий
+
+        Прежде всего добавим файл .gitignore в корень проекта:
+
+        touch .gitignore
+
+        Добавим в него построчно имена папок, которые необходимо исключить из синхронизации:
+
+        echo ".idea","__pycache__" > .gitignore
+
+        echo "__pycache__" > .gitignore
+
+        Удалим все проиндексированные файлы:
+
+        git rm -r -f --cached .
+
+        Запустим индексацию заново:
+
+        git add .
+
+        Добавляем коммит и пушим:
+
+        git commit -m "Remove files"
+        git push -u origin master
+
+
+        git commit -m "Python Starter"
