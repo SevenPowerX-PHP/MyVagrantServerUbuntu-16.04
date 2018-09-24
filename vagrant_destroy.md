@@ -25,3 +25,24 @@
             
             sudo apt-cache search --names-only ^php
             
+           Composer
+           
+           sudo apt-get install composer
+           
+           ssh подключение к GitHub
+           
+           ssh-keygen
+           добавляем pub ключ на github
+           
+           если 22 порт закрыт используем 443
+           [ностроем .ssh/config](https://www.cyberciti.biz/faq/create-ssh-config-file-on-linux-unix/)
+           
+           mkdir /Users/username/.ssh && chmod 700 /Users/username/.ssh
+           touch /Users/username/.ssh/config
+           nano /Users/username/.ssh/config
+           
+           Host github.com
+                  Hostname ssh.github.com
+                  Port 443
+                  IdentityFile ~/.ssh/id_rsa.pub
+            
