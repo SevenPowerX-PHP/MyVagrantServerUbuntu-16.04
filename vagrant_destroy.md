@@ -106,3 +106,5 @@ Edit Vagrantfile
 
     может потребоватся установить zip
     sudo apt-get install zip unzip
+    
+    chmod +x run - ( правим права )
