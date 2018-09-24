@@ -57,7 +57,8 @@ Edit Vagrantfile
 
         vagrant reload
         
-   Start PHPStorm project
+   [Start PHPStorm project](https://habr.com/post/416359/)
+   
    [Как удалить папку .idea и лишние файлы из Git ](https://gist.github.com/wpupru/0159fcb6f6bc903bdbe1ff3509a2847f)
         
         Как удалить папку .idea и лишние файлы из Git
