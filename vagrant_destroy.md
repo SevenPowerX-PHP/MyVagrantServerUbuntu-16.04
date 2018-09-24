@@ -104,3 +104,5 @@ Edit Vagrantfile
     vagrant@ubuntu-xenial:~/megaproject$ composer require splx/dates:1.0
     
 
+    может потребоватся установить zip
+    sudo apt-get install zip unzip
