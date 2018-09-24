@@ -28,7 +28,12 @@
    Composer
            
            sudo apt-get install composer
+           composer init 
+           [https://packagist.org](https://packagist.org) кнопка submit
            
+           git tag -a v1.0 -m"Version 1.0" версия библиотеки
+           git push --tags
+           на [https://packagist.org](https://packagist.org/packages/splx/dates) под надписью Find days number from birthday to today жмем update 
   SSH подключение к GitHub
            
            ssh-keygen
