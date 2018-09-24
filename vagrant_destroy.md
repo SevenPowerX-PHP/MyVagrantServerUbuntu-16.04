@@ -95,3 +95,12 @@ Edit Vagrantfile
 
 
         git commit -m "Python Starter"
+        
+  Проверяем
+  
+    vagrant@ubuntu-xenial:~$ mkdir megaproject
+    vagrant@ubuntu-xenial:~$ cd megaproject/
+    vagrant@ubuntu-xenial:~/megaproject$ ls
+    vagrant@ubuntu-xenial:~/megaproject$ composer require splx/dates:1.0
+    
+
