@@ -40,9 +40,14 @@
            mkdir /Users/username/.ssh && chmod 700 /Users/username/.ssh
            touch /Users/username/.ssh/config
            nano /Users/username/.ssh/config
+           Host github.com
+                  Hostname ssh.github.com
+                  Port 443
+                 
            
            Host github.com
                   Hostname ssh.github.com
+                  User vagrant
                   Port 443
                   IdentityFile ~/.ssh/id_rsa.pub
             
