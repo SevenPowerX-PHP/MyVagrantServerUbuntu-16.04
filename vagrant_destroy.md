@@ -25,11 +25,11 @@
             
             sudo apt-cache search --names-only ^php
             
-           Composer
+   Composer
            
            sudo apt-get install composer
            
-           ssh подключение к GitHub
+  SSH подключение к GitHub
            
            ssh-keygen
            добавляем pub ключ на github
