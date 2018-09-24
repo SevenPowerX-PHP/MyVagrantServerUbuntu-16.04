@@ -51,3 +51,10 @@
                   Port 443
                   IdentityFile ~/.ssh/id_rsa.pub
             
+Edit Vagrantfile
+                    
+                    config.vm.synced_folder "project", "/home/vagrant/project"
+
+        vagrant reload
+        
+   Start PHPStorm
