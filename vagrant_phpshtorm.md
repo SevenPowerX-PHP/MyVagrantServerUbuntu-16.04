@@ -7,5 +7,9 @@
   3. Установить на наш компьютер VirtualBox, скачав его с [официального сайта](https://www.virtualbox.org/). 
   4. Устанавливаем себе на компьютер Vagrant, скачав его с [официального сайта](http://www.vagrantup.com/downloads.html). 
      *   Если у вас появляется ошибка о несоответствии версии PowerShell, то обновите [Management Framework](https://www.microsoft.com/en-US/download/details.aspx?id=50395).
-
-  5.Создаем себе рабочую папку, в которой и будем создавать наш сайт. Для примера это будет папка «webdev» на диске «С».
+  5. Создаем себе рабочую папку, в которой и будем создавать наш сайт. Для примера это будет папка «webdev» на диске «С».
+  6. mkdir webdev
+  
+     cd webdev
+     
+     git clone https://github.com/abyss-soft/webdev . (точка в конце обязательна копируем в текущий каталог)
