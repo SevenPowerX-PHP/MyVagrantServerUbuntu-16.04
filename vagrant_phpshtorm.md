@@ -16,3 +16,7 @@
   7. Перейдя в папку, вводим команду vagrant up. Консоль не закрываем. Когда мы поработаем и нам надо будет выключить виртуальный сервер, мы введем команду vagrant halt.
      *  Может потребоватся установить [VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads)  скачать - [All supported platforms](https://download.virtualbox.org/virtualbox/5.2.18/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack)
   8. пропишем в файле «hosts» (он находится C:\Windows\System32\drivers\etc ) строку: 192.168.33.33 webdev.local sudo nano /etc/hosts Далее запускаем ваш любимый браузер и переходим по ссылке [webdev.local](http://webdev.local/)
+  
+  Если все прошло, как предполагалось, то увидим страницу с текстом «PHP calculating:», показывающую, что наш тестовый сайт загружен в нашу виртуальную машину на сервере и готов работать.
+
+Дальше нам надо подключить к PHPStorm удаленный интерпретатор языка PHP.(далее по статье)
